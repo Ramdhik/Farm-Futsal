@@ -1,8 +1,8 @@
 import { Button } from "@/components/ui/button";
 
-export default function Hero() {
+const Hero = () => {
   return (
-    <div className="w-screen h-screen">
+    <div className="w-full h-screen">
       <div className="bg-[url('/Images/Hero.jpg')] bg-cover bg-center w-full h-full object-cover flex justify-center">
         <div className="w-11/12 mx-auto flex justify-center flex-col py-5 px-2 font-bold text-white">
           <div className="w-2/4 mb-10">
@@ -25,4 +25,6 @@ export default function Hero() {
       </div>
     </div>
   );
-}
+};
+
+export default Hero;
